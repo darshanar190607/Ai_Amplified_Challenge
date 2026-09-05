@@ -6,8 +6,6 @@
 # ------------------------------------------------------------------------------
 # Environment Variables & Secret Files (DO NOT PUSH KEYS/SECRETS)
 # ------------------------------------------------------------------------------
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -112,7 +110,10 @@ logs/
 ehthumbs.db
 Thumbs.db
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
